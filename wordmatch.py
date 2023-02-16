@@ -2,7 +2,7 @@ import os
 import platform
 import sys
 
-def search(folder = "../python", word="ogg", extension="py"):
+def search(folder, word, extension):
     filelist = os.listdir(folder)
     os.chdir(os.path.join(os.getcwd(), folder))
     path = pathip(path = os.getcwd())
@@ -28,5 +28,3 @@ def pathip(root = sys.argv[1], path = __file__):
 
 if __name__ == '__main__':    
     search(sys.argv[1], sys.argv[2], sys.argv[3])
-    #search("./sounds/","ogg","py")
-
