@@ -70,15 +70,12 @@ if __name__ == '__main__':
                 flag_quiet = True
             case '-p':
                 path = val
-                print(val)
             case '-w':
                 word = val
                 print(val)
             case '-o':
-                output = val
-                print(val)            
+                output = val            
             case '-e':
                 extension = val
-                print(val)
     search(path, word, extension, flag_quiet)
     #search("C:\\Users\\Blu3", "blu3", "*")
