@@ -72,7 +72,6 @@ if __name__ == '__main__':
                 path = val
             case '-w':
                 word = val
-                print(val)
             case '-o':
                 output = val            
             case '-e':
